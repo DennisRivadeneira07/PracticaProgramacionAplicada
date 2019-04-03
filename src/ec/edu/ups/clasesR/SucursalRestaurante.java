@@ -1,8 +1,4 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package ec.edu.ups.clasesR;
 
 /**
@@ -22,7 +18,7 @@ public class SucursalRestaurante
     @Override
     public String toString() 
     {
-        return "Sucursal:" + "\n Numero de Local=" + direccionSucursal + "\n Nombre de Restaurante=" + horarioAtencion + "\n Direccion de Restaurante=" + numeroSucursal + '.';
+        return "Sucursal:" + "\n Direccion Sucursal=" + direccionSucursal + "\n Horario Atencion=" + horarioAtencion + "\n Numero de Sucursal=" + numeroSucursal + '.';
     }
     private String direccionSucursal;
     private double horarioAtencion;
